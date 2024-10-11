@@ -1,9 +1,5 @@
-import Image from "next/image";
+import { HomePage } from "@/components/home/home-page";
 
 export default function Home() {
-  return (
-    <div className="flex items-center justify-center min-h-screen">
-      <p>Welcome to YouShop</p>
-    </div>
-  );
+  return <HomePage />;
 }
