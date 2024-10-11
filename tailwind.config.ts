@@ -67,6 +67,15 @@ const config: Config = {
         sm: "calc(var(--radius) - 4px)",
       },
     },
+    animation: {
+      "infinite-scroll": "infinite-scroll 10s linear infinite",
+    },
+    keyframes: {
+      "infinite-scroll": {
+        from: { transform: "translateX(100%)" },
+        to: { transform: "translateX(-100%)" },
+      },
+    },
   },
   plugins: [require("tailwindcss-animate")],
 };

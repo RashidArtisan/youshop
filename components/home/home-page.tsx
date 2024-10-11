@@ -9,7 +9,15 @@ import { NavMenu } from "@/components/layout/nav-menu";
 export const HomePage = () => {
   return (
     <div className="flex min-h-screen w-full flex-col">
-      <header className="fixed top-0 h-fit items-center border-b w-full p-1 py-auto">
+      <div className="bg-[#004e6e] text-white font-medium text-sm overflow-hidden">
+        <p className="animate-infinite-scroll whitespace-nowrap" aria-hidden="true">
+          🎉Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s.🎊Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s.🎊
+        </p>
+      </div>
+      <header className="sticky top-0 h-fit items-center border-b w-full p-1 py-auto">
         <div className="flex flex-row px-3">
           <SideSheet />
           <nav className="mr-auto size-15">
