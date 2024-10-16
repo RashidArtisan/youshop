@@ -11,11 +11,11 @@ import { UserNav } from "@/components/layout/user-nav";
 export const NavMenu = () => {
   return (
     <Nav.NavigationMenu>
-      <Nav.NavigationMenuList className="xss:ml-2 xss:-space-x-0 gap-2">
+      <Nav.NavigationMenuList className="xss:ml-2 xss:-space-x-0 gap-2 ">
         <Nav.NavigationMenuItem className="hidden sm:block">
           <Button
             variant="ghost"
-            className="flex flex-row  hover:ring-1 hover:ring-primary"
+            className="flex flex-row  hover:ring-1 hover:ring-primary hover:bg-transparent"
             asChild
           >
             <div className="flex flex-col items-center">
@@ -33,7 +33,7 @@ export const NavMenu = () => {
               <Tooltip.TooltipTrigger>
                 <Button
                   size="icon"
-                  className=" hover:ring-1 hover:ring-primary"
+                  className=" hover:ring-1 hover:ring-primary hover:bg-transparent"
                   variant="ghost"
                   asChild
                 >
@@ -47,7 +47,7 @@ export const NavMenu = () => {
         <Nav.NavigationMenuItem>
           <Link href="/docs" legacyBehavior passHref>
             <Nav.NavigationMenuLink
-              className={`${Nav.navigationMenuTriggerStyle()} hover:ring-1 hover:ring-primary gap-1 bg-transparent`}
+              className={`${Nav.navigationMenuTriggerStyle()} hover:ring-1 hover:ring-primary gap-1 bg-transparent hover:bg-transparent`}
             >
               <Icon.ShoppingCartIcon className="relative w-7 h-7" />
               <Badge className="absolute top-1 right-[59px] sm:right-[93px] flex items-center justify-center font-extrabold rounded-full p-1.5 w-3 h-3 text-[7px]">

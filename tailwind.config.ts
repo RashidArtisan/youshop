@@ -68,12 +68,12 @@ const config: Config = {
       },
     },
     animation: {
-      "infinite-scroll": "infinite-scroll 10s linear infinite",
+      "infinite-scroll": "infinite-scroll 25s linear infinite",
     },
     keyframes: {
       "infinite-scroll": {
         from: { transform: "translateX(100%)" },
-        to: { transform: "translateX(-100%)" },
+        to: { transform: "translateX(-120%)" },
       },
     },
   },

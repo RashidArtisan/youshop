@@ -13,7 +13,7 @@ export const UserNav = () => {
         <Button
           variant="outline"
           size="icon"
-          className=" relative h-10 w-10 rounded-full p-2 hover:ring-1 hover:ring-primary flex flex-row gap-1 items-center shadow-lg"
+          className=" relative h-10 w-10 rounded-full p-2 hover:ring-1 hover:ring-primary flex flex-row gap-1 items-center shadow-lg hover:bg-transparent"
         >
           <span className="sr-only">Account</span>
           <Avatar className="h-7 w-7">
